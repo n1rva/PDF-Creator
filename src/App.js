@@ -170,8 +170,8 @@ export default function Home() {
       0,
       imgDimensions.width,
       imgDimensions.height,
-      "",
-      "FAST"
+      undefined,
+      "MEDIUM"
     );
 
     fontFile && pdf.addFont(fontFile, textProperties.font, "normal");
